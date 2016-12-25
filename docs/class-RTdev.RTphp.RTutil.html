@@ -1,0 +1,1513 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>Class RTdev\RTphp\RTutil | RTphp</title>
+
+	<link rel="stylesheet" href="resources/style.css?e99947befd7bf673c6b43ff75e9e0f170c88a60e">
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+				<h3>Namespaces</h3>
+			<ul>
+				<li>
+					<a href="namespace-None.html">
+						None					</a>
+
+						</li>
+				<li>
+					<a href="namespace-PHP.html">
+						PHP					</a>
+
+						</li>
+				<li class="active">
+					<a href="namespace-RTdev.html">
+						RTdev<span></span>
+					</a>
+
+						<ul>
+				<li class="active">
+					<a href="namespace-RTdev.RTphp.html">
+						RTphp					</a>
+
+						</li>
+							</ul></li>
+			</ul>
+		</div>
+
+		<hr>
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-RTdev.RTphp.RTmysqli.html">RTmysqli</a></li>
+				<li><a href="class-RTdev.RTphp.RTpassword.html">RTpassword</a></li>
+				<li><a href="class-RTdev.RTphp.RTslugify.html">RTslugify</a></li>
+				<li class="active"><a href="class-RTdev.RTphp.RTutil.html">RTutil</a></li>
+			</ul>
+
+
+
+
+
+			<h3>Functions</h3>
+			<ul>
+				<li><a href="function-RTdev.RTphp.RTphpLoad.html">RTphpLoad</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="">
+		<input type="hidden" name="ie" value="UTF-8">
+		<input type="text" name="q" class="text" placeholder="Search">
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="namespace-RTdev.RTphp.html" title="Summary of RTdev\RTphp"><span>Namespace</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+				<li>
+					<a href="annotation-group-deprecated.html" title="List of elements with deprecated annotation">
+						<span>Deprecated</span>
+					</a>
+				</li>
+				<li>
+					<a href="annotation-group-todo.html" title="List of elements with todo annotation">
+						<span>Todo</span>
+					</a>
+				</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="-API-documentation.zip" title="Download documentation as ZIP archive"><span>Download</span></a>
+			</li>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class RTutil</h1>
+
+
+	<div class="description">
+	<p>Collection or library of helper functions for common tasks.</p>
+	</div>
+
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		<b>Namespace:</b> <a href="namespace-RTdev.html">RTdev</a>\<a href="namespace-RTdev.RTphp.html">RTphp</a><br>
+		
+
+				<b>Author:</b>
+				Roger Tiong RTdev<br>
+				<b>Version:</b>
+				0.1<br>
+			<b>Located at</b> <a href="source-class-RTdev.RTphp.RTutil.html#10-782" title="Go to source code">src/RTutil.php</a>
+		<br>
+	</div>
+
+
+
+	<table class="summary methods" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="addr2LatLng" id="_addr2LatLng">
+
+		<td class="attributes"><code>
+			 public static
+
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_addr2LatLng">#</a>
+		<code><a href="source-class-RTdev.RTphp.RTutil.html#18-42" title="Go to source code">addr2LatLng</a>( <span>array|string <var>$address</var></span> )</code>
+
+		<div class="description short">
+			<p>Convert address to latitude and longitude</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Convert address to latitude and longitude</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$address</var></dt>
+					<dd>Address</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					array
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="latLng2Addr" id="_latLng2Addr">
+
+		<td class="attributes"><code>
+			 public static
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_latLng2Addr">#</a>
+		<code><a href="source-class-RTdev.RTphp.RTutil.html#44-63" title="Go to source code">latLng2Addr</a>( <span>string <var>$lat</var></span>, <span>string <var>$lng</var></span> )</code>
+
+		<div class="description short">
+			<p>Convert latitude and longitude to address</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Convert latitude and longitude to address</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$lat</var></dt>
+					<dd>Latitude</dd>
+					<dt><var>$lng</var></dt>
+					<dd>Longitude</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					string
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="isAlphanumeric" id="_isAlphanumeric">
+
+		<td class="attributes"><code>
+			 public static
+
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_isAlphanumeric">#</a>
+		<code><a href="source-class-RTdev.RTphp.RTutil.html#65-74" title="Go to source code">isAlphanumeric</a>( <span>string <var>$v</var></span> )</code>
+
+		<div class="description short">
+			<p>Check value is alphanumeric</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Check value is alphanumeric</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$v</var></dt>
+					<dd>Value to check</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="isEmail" id="_isEmail">
+
+		<td class="attributes"><code>
+			 public static
+
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_isEmail">#</a>
+		<code><a href="source-class-RTdev.RTphp.RTutil.html#76-85" title="Go to source code">isEmail</a>( <span>string <var>$v</var></span> )</code>
+
+		<div class="description short">
+			<p>Check is value an email</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Check is value an email</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$v</var></dt>
+					<dd>Value to check</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="isEndsWith" id="_isEndsWith">
+
+		<td class="attributes"><code>
+			 public static
+
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_isEndsWith">#</a>
+		<code><a href="source-class-RTdev.RTphp.RTutil.html#87-97" title="Go to source code">isEndsWith</a>( <span>string <var>$v1</var></span>, <span>string <var>$v2</var></span> )</code>
+
+		<div class="description short">
+			<p>Check is value 1 end with value 2</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Check is value 1 end with value 2</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$v1</var></dt>
+					<dd>Value 1</dd>
+					<dt><var>$v2</var></dt>
+					<dd>Value 2</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="isGeoStr" id="_isGeoStr">
+
+		<td class="attributes"><code>
+			 public static
+
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_isGeoStr">#</a>
+		<code><a href="source-class-RTdev.RTphp.RTutil.html#99-108" title="Go to source code">isGeoStr</a>( <span>string <var>$v</var></span> )</code>
+
+		<div class="description short">
+			<p>Check value is a valid Geo-location string</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Check value is a valid Geo-location string</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$v</var></dt>
+					<dd>Geo-location string</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="isHttps" id="_isHttps">
+
+		<td class="attributes"><code>
+			 public static
+
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_isHttps">#</a>
+		<code><a href="source-class-RTdev.RTphp.RTutil.html#110-125" title="Go to source code">isHttps</a>( <span>boolean <var>$trust_proxy_headers</var> = <span class="php-keyword1">FALSE</span></span> )</code>
+
+		<div class="description short">
+			<p>Checks to see if the page is being server over SSL or not</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Checks to see if the page is being server over SSL or not</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$trust_proxy_headers</var></dt>
+					<dd>True = allow proxy headers</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="isStartsWith" id="_isStartsWith">
+
+		<td class="attributes"><code>
+			 public static
+
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_isStartsWith">#</a>
+		<code><a href="source-class-RTdev.RTphp.RTutil.html#127-137" title="Go to source code">isStartsWith</a>( <span>string <var>$v1</var></span>, <span>string <var>$v2</var></span> )</code>
+
+		<div class="description short">
+			<p>Check is value 1 start with value 2</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Check is value 1 start with value 2</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$v1</var></dt>
+					<dd>Value 1</dd>
+					<dt><var>$v2</var></dt>
+					<dd>Value 2</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="isStrContains" id="_isStrContains">
+
+		<td class="attributes"><code>
+			 public static
+
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_isStrContains">#</a>
+		<code><a href="source-class-RTdev.RTphp.RTutil.html#139-150" title="Go to source code">isStrContains</a>( <span>string <var>$v1</var></span>, <span>string <var>$v2</var></span>, <span>boolean <var>$ignoreCase</var> = <span class="php-keyword1">TRUE</span></span> )</code>
+
+		<div class="description short">
+			<p>Check is value 2 contains in value 1</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Check is value 2 contains in value 1</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$v1</var></dt>
+					<dd>Value 1</dd>
+					<dt><var>$v2</var></dt>
+					<dd>Value 2</dd>
+					<dt><var>$ignoreCase</var></dt>
+					<dd>True = case insensitive</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="isUrl" id="_isUrl">
+
+		<td class="attributes"><code>
+			 public static
+
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_isUrl">#</a>
+		<code><a href="source-class-RTdev.RTphp.RTutil.html#152-161" title="Go to source code">isUrl</a>( <span>string <var>$v</var></span> )</code>
+
+		<div class="description short">
+			<p>Check is value a URL</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Check is value a URL</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$v</var></dt>
+					<dd>Value to check</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="csv2Arr" id="_csv2Arr">
+
+		<td class="attributes"><code>
+			 public static
+
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_csv2Arr">#</a>
+		<code><a href="source-class-RTdev.RTphp.RTutil.html#163-173" title="Go to source code">csv2Arr</a>( <span>string <var>$fullFpath</var></span> )</code>
+
+		<div class="description short">
+			<p>Convert contents in CSV to PHP array.<br>
+Memory limit is based on php.ini</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Convert contents in CSV to PHP array.<br>
+Memory limit is based on php.ini</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$fullFpath</var></dt>
+					<dd>Full file path</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					array
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="force1Spc" id="_force1Spc">
+
+		<td class="attributes"><code>
+			 public static
+
+			array|string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_force1Spc">#</a>
+		<code><a href="source-class-RTdev.RTphp.RTutil.html#175-196" title="Go to source code">force1Spc</a>( <span>array|string <var>$v</var></span> )</code>
+
+		<div class="description short">
+			<p>Remove all white space and replace with single space.<br>
+It can use as minifier for HTML, JS and CSS code display on view source URL.<br>
+Avoid use '//' when using this function.<br></p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Remove all white space and replace with single space.<br>
+It can use as minifier for HTML, JS and CSS code display on view source URL.<br>
+Avoid use '//' when using this function.<br></p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$v</var></dt>
+					<dd>Values to format</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					array|string
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="hex2Str" id="_hex2Str">
+
+		<td class="attributes"><code>
+			 public static
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_hex2Str">#</a>
+		<code><a href="source-class-RTdev.RTphp.RTutil.html#198-219" title="Go to source code">hex2Str</a>( <span>string <var>$hex</var></span> )</code>
+
+		<div class="description short">
+			<p>Convert hex value to normal string</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Convert hex value to normal string</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$hex</var></dt>
+					<dd>Hex value to convert</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					string
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="multiStr2Hex" id="_multiStr2Hex">
+
+		<td class="attributes"><code>
+			 public static
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_multiStr2Hex">#</a>
+		<code><a href="source-class-RTdev.RTphp.RTutil.html#221-238" title="Go to source code">multiStr2Hex</a>( <span>string <var>$str</var></span>, <span>integer <var>$multiply</var> = <span class="php-num">0</span></span> )</code>
+
+		<div class="description short">
+			<p>Run self::str2Hex multiple times</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Run self::str2Hex multiple times</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$str</var></dt>
+					<dd>String to convert</dd>
+					<dt><var>$multiply</var></dt>
+					<dd>Number of loop</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					string
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="ordinal" id="_ordinal">
+
+		<td class="attributes"><code>
+			 public static
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_ordinal">#</a>
+		<code><a href="source-class-RTdev.RTphp.RTutil.html#240-251" title="Go to source code">ordinal</a>( <span>integer <var>$num</var></span> )</code>
+
+		<div class="description short">
+			<p>Format number to ordinal version</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Format number to ordinal version</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$num</var></dt>
+					<dd>Number to convert</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					string
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="str2Bool" id="_str2Bool">
+
+		<td class="attributes"><code>
+			 public static
+
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_str2Bool">#</a>
+		<code><a href="source-class-RTdev.RTphp.RTutil.html#253-266" title="Go to source code">str2Bool</a>( <span>string <var>$str</var></span>, <span>boolean <var>$default</var> = <span class="php-keyword1">FALSE</span></span> )</code>
+
+		<div class="description short">
+			<p>Convert string to boolean</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Convert string to boolean</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$str</var></dt>
+					<dd>Value to convert</dd>
+					<dt><var>$default</var></dt>
+					<dd>Default result if fail</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="str2Hex" id="_str2Hex">
+
+		<td class="attributes"><code>
+			 public static
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_str2Hex">#</a>
+		<code><a href="source-class-RTdev.RTphp.RTutil.html#268-285" title="Go to source code">str2Hex</a>( <span>string <var>$str</var></span> )</code>
+
+		<div class="description short">
+			<p>Convert string to hex value</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Convert string to hex value</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$str</var></dt>
+					<dd>String to convert</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					string
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="truncate" id="_truncate">
+
+		<td class="attributes"><code>
+			 public static
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_truncate">#</a>
+		<code><a href="source-class-RTdev.RTphp.RTutil.html#287-312" title="Go to source code">truncate</a>( <span>string <var>$v</var></span>, <span>integer <var>$len</var> = <span class="php-num">0</span></span>, <span>string <var>$append</var> = <span class="php-quote">'...'</span></span>, <span>boolean <var>$safemode</var> = <span class="php-keyword1">FALSE</span></span> )</code>
+
+		<div class="description short">
+			<p>Truncate a string to a specified length</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Truncate a string to a specified length</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$v</var></dt>
+					<dd>Text to truncate</dd>
+					<dt><var>$len</var></dt>
+					<dd>Length to truncate</dd>
+					<dt><var>$append</var></dt>
+					<dd>Text to append IF truncated</dd>
+					<dt><var>$safemode</var></dt>
+					<dd>True = truncate without cutting a word off</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					string
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="calPercentage" id="_calPercentage">
+
+		<td class="attributes"><code>
+			 public static
+
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_calPercentage">#</a>
+		<code><a href="source-class-RTdev.RTphp.RTutil.html#314-327" title="Go to source code">calPercentage</a>( <span>integer|float <var>$numerator</var></span>, <span>integer|float <var>$denominator</var></span>, <span>integer|float <var>$decimals</var> = <span class="php-num">2</span></span>, <span>string <var>$dec_point</var> = <span class="php-quote">'.'</span></span>, <span>string <var>$thousands_sep</var> = <span class="php-quote">','</span></span> )</code>
+
+		<div class="description short">
+			<p>Calculates percentage of numerator and denominator.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Calculates percentage of numerator and denominator.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$numerator</var></dt>
+					<dd>Numerator</dd>
+					<dt><var>$denominator</var></dt>
+					<dd>Denominator</dd>
+					<dt><var>$decimals</var></dt>
+					<dd>Decimal place</dd>
+					<dt><var>$dec_point</var></dt>
+					<dd>Custom decimal point</dd>
+					<dt><var>$thousands_sep</var></dt>
+					<dd>Custom thousand separator</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					integer
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getIP" id="_getIP">
+
+		<td class="attributes"><code>
+			 public static
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getIP">#</a>
+		<code><a href="source-class-RTdev.RTphp.RTutil.html#329-366" title="Go to source code">getIP</a>( )</code>
+
+		<div class="description short">
+			<p>Get visitor's IP address</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Get visitor's IP address</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					string
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getCurrentURL" id="_getCurrentURL">
+
+		<td class="attributes"><code>
+			 public static
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getCurrentURL">#</a>
+		<code><a href="source-class-RTdev.RTphp.RTutil.html#368-409" title="Go to source code">getCurrentURL</a>( )</code>
+
+		<div class="description short">
+			<p>Get the current URL</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Get the current URL</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					string
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getDateRange" id="_getDateRange">
+
+		<td class="attributes"><code>
+			 public static
+
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getDateRange">#</a>
+		<code><a href="source-class-RTdev.RTphp.RTutil.html#411-443" title="Go to source code">getDateRange</a>( <span>integer|string <var>$from</var></span>, <span>integer|string <var>$to</var></span>, <span>integer <var>$adjust</var> = <span class="php-num">1</span></span>, <span>string <var>$format</var> = <span class="php-quote">'Y-m-d'</span></span> )</code>
+
+		<div class="description short">
+			<p>Get date(s) range in array format</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Get date(s) range in array format</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$from</var></dt>
+					<dd>Start date</dd>
+					<dt><var>$to</var></dt>
+					<dd>End date</dd>
+					<dt><var>$adjust</var></dt>
+					<dd>Value to adjust for per step (between elements)</dd>
+					<dt><var>$format</var></dt>
+					<dd>Date format to return</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					array
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getFileExt" id="_getFileExt">
+
+		<td class="attributes"><code>
+			 public static
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getFileExt">#</a>
+		<code><a href="source-class-RTdev.RTphp.RTutil.html#445-454" title="Go to source code">getFileExt</a>( <span>string <var>$filename</var></span> )</code>
+
+		<div class="description short">
+			<p>Get file extension</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Get file extension</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$filename</var></dt>
+					<dd>File name</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					string
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getVisitorInfo" id="_getVisitorInfo">
+
+		<td class="attributes"><code>
+			 public static
+
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getVisitorInfo">#</a>
+		<code><a href="source-class-RTdev.RTphp.RTutil.html#456-489" title="Go to source code">getVisitorInfo</a>( )</code>
+
+		<div class="description short">
+			<p>Get visitor information<br>
+Used API useragentstring.com and geoplugin.net</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Get visitor information<br>
+Used API useragentstring.com and geoplugin.net</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					array
+				</div>
+
+
+				<h4>Api</h4>
+				<div class="list">
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="humanTimeDiff" id="_humanTimeDiff">
+
+		<td class="attributes"><code>
+			 public static
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_humanTimeDiff">#</a>
+		<code><a href="source-class-RTdev.RTphp.RTutil.html#491-549" title="Go to source code">humanTimeDiff</a>( <span>integer|string <var>$from</var></span>, <span>integer|string <var>$to</var></span>, <span>string <var>$sep</var> = <span class="php-quote">' '</span></span>, <span>string <var>$ends_with</var> = <span class="php-quote">''</span></span>, <span>integer <var>$precision</var> = <span class="php-num">6</span></span> )</code>
+
+		<div class="description short">
+			<p>Get different of 2 date time in human understand format</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Get different of 2 date time in human understand format</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$from</var></dt>
+					<dd>Start datetime</dd>
+					<dt><var>$to</var></dt>
+					<dd>End datetime</dd>
+					<dt><var>$sep</var></dt>
+					<dd>Separator</dd>
+					<dt><var>$ends_with</var></dt>
+					<dd>String to add to the end</dd>
+					<dt><var>$precision</var></dt>
+					<dd>Precision. Example for $precision = 2, 1 hour 30 minutes</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					string
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="randPword" id="_randPword">
+
+		<td class="attributes"><code>
+			 public static
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_randPword">#</a>
+		<code><a href="source-class-RTdev.RTphp.RTutil.html#551-601" title="Go to source code">randPword</a>( <span>integer <var>$level</var> = <span class="php-num">1</span></span>, <span>integer <var>$len</var> = <span class="php-num">6</span></span> )</code>
+
+		<div class="description short">
+			<p>Get random password</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Get random password</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$level</var></dt>
+					<dd>Level of password. 0-5</dd>
+					<dt><var>$len</var></dt>
+					<dd>Length of password (minimum 1)</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					string
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="shuffleArr" id="_shuffleArr">
+
+		<td class="attributes"><code>
+			 public static
+
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_shuffleArr">#</a>
+		<code><a href="source-class-RTdev.RTphp.RTutil.html#603-622" title="Go to source code">shuffleArr</a>( <span>array <var>$array</var></span>, <span>integer <var>$multiply</var> = <span class="php-num">1</span></span> )</code>
+
+		<div class="description short">
+			<p>Shuffle elements in array</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Shuffle elements in array</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$array</var></dt>
+					<dd>Array to shuffle</dd>
+					<dt><var>$multiply</var></dt>
+					<dd>Number to shuffle (loop)</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					array
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="sortDateTime" id="_sortDateTime">
+
+		<td class="attributes"><code>
+			 public static
+
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_sortDateTime">#</a>
+		<code><a href="source-class-RTdev.RTphp.RTutil.html#624-653" title="Go to source code">sortDateTime</a>( <span>array <var>$data</var></span>, <span>string <var>$order</var> = <span class="php-quote">'ASC'</span></span> )</code>
+
+		<div class="description short">
+			<p>Sort 1D datetime array</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Sort 1D datetime array</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$data</var></dt>
+					<dd>List to sort</dd>
+					<dt><var>$order</var></dt>
+					<dd>ASC or DESC</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					array
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="logger" id="_logger">
+
+		<td class="attributes"><code>
+			 public static
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_logger">#</a>
+		<code><a href="source-class-RTdev.RTphp.RTutil.html#655-666" title="Go to source code">logger</a>( <span>string <var>$msg</var></span>, <span>string <var>$file</var> = <span class="php-quote">'__log'</span></span> )</code>
+
+		<div class="description short">
+			<p>Logger</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Logger</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$msg</var></dt>
+					<dd>Message</dd>
+					<dt><var>$file</var></dt>
+					<dd>Filename</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="rtarray_column" id="_rtarray_column">
+
+		<td class="attributes"><code>
+			 public static
+
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_rtarray_column">#</a>
+		<code><a href="source-class-RTdev.RTphp.RTutil.html#668-727" title="Go to source code">rtarray_column</a>( <span>array <var>$data</var> = <span class="php-keyword1">NULL</span></span>, <span>mixed <var>$colKey</var> = <span class="php-keyword1">NULL</span></span>, <span>mixed <var>$indexKey</var> = <span class="php-keyword1">NULL</span></span> )</code>
+
+		<div class="description short">
+			<p>Returns the values from a single column of the input array, identified by the $colKey.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Returns the values from a single column of the input array, identified by the $colKey.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$data</var></dt>
+					<dd>Data array</dd>
+					<dt><var>$colKey</var></dt>
+					<dd>Column key</dd>
+					<dt><var>$indexKey</var></dt>
+					<dd>Index key</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					array
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="rtarray_filter_key" id="_rtarray_filter_key">
+
+		<td class="attributes"><code>
+			 public static
+
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_rtarray_filter_key">#</a>
+		<code><a href="source-class-RTdev.RTphp.RTutil.html#729-744" title="Go to source code">rtarray_filter_key</a>( <span>array <var>$array</var></span>, <span>callable <var>$callback</var></span> )</code>
+
+		<div class="description short">
+			<p>Filter array by key</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Filter array by key</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$array</var></dt>
+					<dd>Array</dd>
+					<dt><var>$callback</var></dt>
+					<dd>Callback function</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					array
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="rtarray_flatten" id="_rtarray_flatten">
+
+		<td class="attributes"><code>
+			 public static
+
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_rtarray_flatten">#</a>
+		<code><a href="source-class-RTdev.RTphp.RTutil.html#746-769" title="Go to source code">rtarray_flatten</a>( <span>array <var>$array</var></span>, <span>boolean <var>$preserve_k</var> = <span class="php-keyword1">TRUE</span></span> )</code>
+
+		<div class="description short">
+			<p>Flatten a multi-D array into a 1D array</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Flatten a multi-D array into a 1D array</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$array</var></dt>
+					<dd>Array to convert</dd>
+					<dt><var>$preserve_k</var></dt>
+					<dd>True = preserve array keys</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					array
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="rtarray_unique" id="_rtarray_unique">
+
+		<td class="attributes"><code>
+			 public static
+
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_rtarray_unique">#</a>
+		<code><a href="source-class-RTdev.RTphp.RTutil.html#771-780" title="Go to source code">rtarray_unique</a>( <span>array <var>$array</var></span> )</code>
+
+		<div class="description short">
+			<p>Faster version on array unique</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Faster version on array unique</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$array</var></dt>
+					<dd>Array to format</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					array
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		RTphp API documentation generated by <a href="http://apigen.org">ApiGen</a>
+	</div>
+</div>
+</div>
+<script src="resources/combined.js"></script>
+<script src="elementlist.js"></script>
+</body>
+</html>

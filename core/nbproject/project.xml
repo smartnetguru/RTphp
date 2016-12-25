@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://www.netbeans.org/ns/project/1">
+    <type>org.netbeans.modules.php.project</type>
+    <configuration>
+        <data xmlns="http://www.netbeans.org/ns/php-project/1">
+            <name>RTphp</name>
+        </data>
+        <spellchecker-wordlist xmlns="http://www.netbeans.org/ns/spellchecker-wordlist/1">
+            <word>arr</word>
+            <word>arr'</word>
+            <word>Bcrypt</word>
+            <word>br</word>
+            <word>chars'</word>
+            <word>count'</word>
+            <word>Geo</word>
+            <word>geoplugin</word>
+            <word>github</word>
+            <word>html</word>
+            <word>http</word>
+            <word>https</word>
+            <word>ini</word>
+            <word>int</word>
+            <word>io</word>
+            <word>minifier</word>
+            <word>mysqli</word>
+            <word>name'</word>
+            <word>nl</word>
+            <word>param</word>
+            <word>php</word>
+            <word>qparam</word>
+            <word>rogertiongdev</word>
+            <word>spliter</word>
+            <word>sql</word>
+            <word>src</word>
+            <word>stmt</word>
+            <word>str</word>
+            <word>str'</word>
+            <word>stripslashes</word>
+            <word>urldecode</word>
+            <word>useragentstring</word>
+        </spellchecker-wordlist>
+    </configuration>
+</project>
