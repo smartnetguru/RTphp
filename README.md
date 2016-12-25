@@ -46,3 +46,7 @@ Classes list
 - RTslugify
 - RTutil
 
+Read
+-
+- [RTphp documentation](https://rawgit.com/rogertiongdev/RTphp/master/docs/index.html)
+- [RTphp example code](https://github.com/rogertiongdev/RTphp/tree/master/core/test)
