@@ -52,4 +52,3 @@ Read
 - [RTphp example code](https://github.com/rogertiongdev/RTphp/tree/master/core/test)
 
 <a><img src="https://scontent-kul1-1.xx.fbcdn.net/v/t1.0-9/15726590_139774699850047_6018651687098820130_n.jpg?oh=ecbb2a94b3e61e32d7cb99ff61762e3a&oe=58E3F2B2" width="99" align="right"/></a>
-
